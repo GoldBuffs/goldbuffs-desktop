@@ -7,8 +7,7 @@ it opens instantly (no browser tabs, no typing a URL), and it checks for updates
 **This repo holds built installers only — no source code.** It exists so releases can be public
 (and update checks need no login) while the app's actual source stays in a private repo.
 
-**Who this is for:** gym owners and staff only. There's no System Console / system-owner access
-in this app.
+**Who this is for:** gym owners and staff only.
 
 ## Install
 
@@ -37,5 +36,4 @@ reinstall from the Releases page at any time.
 
 ## Signing
 
-Neither build is code-signed yet (that needs a paid Apple Developer account / Windows code-signing
-certificate) — the warnings above are expected, not a sign anything's wrong.
+Neither build is code-signed yet — the warnings above are expected, not a sign anything's wrong.
