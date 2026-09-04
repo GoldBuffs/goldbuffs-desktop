@@ -15,9 +15,18 @@ it opens instantly (no browser tabs, no typing a URL), and it checks for updates
 
 1. Download the latest `Gold Buffs-<version>.dmg` from the [Releases page](../../releases).
 2. Open the `.dmg` and drag **Gold Buffs** into your **Applications** folder.
-3. Launch it from Applications (or Spotlight). The first time, macOS will warn that it's from an
-   "unidentified developer" — right-click (or Control-click) the app → **Open** → **Open** again
-   in the confirmation dialog. You only need to do this once.
+3. Launch it from Applications (or Spotlight). The first time, macOS will likely refuse with
+   **"Gold Buffs.app" Not Opened — Apple could not verify...** — click **Done**, **not** "Move to
+   Trash". Then:
+   - Open **System Settings → Privacy & Security**
+   - Scroll down to Security — you'll see *"Gold Buffs.app was blocked from use..."* with an
+     **Open Anyway** button next to it. Click it (may ask for your password/Touch ID).
+   - Open the app again — one more confirmation dialog appears, this time with a real **Open**
+     button.
+   - You only need to do this once per install.
+   - (Right-click the app → **Open** sometimes shows a quicker version of this same bypass, but
+     recent macOS versions increasingly skip straight to the dialog above instead — don't be
+     surprised if the shortcut doesn't work.)
 
 ### Windows
 
